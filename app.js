@@ -4,7 +4,7 @@ var app = express();
 var piREST = require('pi-arest')(app);
 
 // Set unique ID - old p5dgwt
-piREST.set_id('x7pirelay1');
+piREST.set_id('razpi3relay1');
 piREST.set_name('pi_cloud');
 
 // Connect to cloud.aREST.io
