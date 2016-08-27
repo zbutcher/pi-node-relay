@@ -1,10 +1,10 @@
-// Modules
+// Modules //
 var express = require('express');
 var app = express();
 var piREST = require('pi-arest')(app);
 
-// Set unique ID
-piREST.set_id('p5dgwt');
+// Set unique ID - old p5dgwt
+piREST.set_id('x7pirelay1');
 piREST.set_name('pi_cloud');
 
 // Connect to cloud.aREST.io
